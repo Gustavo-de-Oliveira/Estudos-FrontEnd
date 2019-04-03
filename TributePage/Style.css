@@ -1,0 +1,46 @@
+body {
+	background-color: #ffe4c4;
+	color: #696969;
+}
+
+main {
+	background-color: #ffefd5;
+}
+
+#title {
+	font-family: Comic-Sans;
+	text-align: center;	
+}
+
+#img-div {
+	background-color: #ffe4c4;
+	margin: 0px 20px 0px 20px;
+	border-radius: 20px;
+}
+
+#image {	
+	height: 500px;
+	padding: 5px 125px 0px 125px;
+	border-radius: 20px;
+}
+
+#img-caption {
+	margin: 10px 0px 10px 25px;	
+}
+
+#tribute-info {
+	margin: 0px 200px 0px 200px;
+}
+
+#list li {
+	margin-top: 10px;
+}
+
+#tribute-link {
+	color: #ff00ff;
+}
+
+#tribute-link:hover {
+	font-size: 18px;
+	color: #ffb6c1;
+}
