@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questionario</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<header>
+		<h1 id="title">Relatos</h1>
+	</header>
+
+	<main>
+		<p id="description">Nos mande um relato para avaliarmos</p>	
+		<br/><br/>
+		<form id="survey-form">
+			<label id="name-label">* Nome:<br/>
+			<input type="text" id="name" placeholder="Nos diga seu nome completo">
+			</label>
+			<br/><br/>
+			
+			<label id="email-label">* Email:<br/>
+			<input type="email" id="email" placeholder="Como podemos te contatar?">
+			</label>
+			<br/><br/>
+
+			<label id="number-label">* Idade:<br/>
+			<input type="number" id="number" min="1" max="100" placeholder="Qual a sua idade?">
+			</label>
+			<br/><br/>
+
+			<p>Deseja ficam em anonimato?</p>
+			<label for="sim">
+  				<input id="rdb-sim" type="radio" name="sim-nao" checked="true">Sim
+			</label>
+			<label for="nao">
+  				<input id="rdb-nao" type="radio" name="sim-nao">Nao
+			</label>
+			<br/><br/>
+
+			<label id="textarea-label">* Descreva seu relato:<br/>
+				<textarea id="textarea" placeholder="Escreva aqui seu relato..."></textarea>
+			</label>
+			<br/><br/>
+
+			<label id="dropdown-label">* Escolha uma tag: <br/>
+				 <select id="dropdown">
+				  <option value="tag1">Tag1</option>
+				  <option value="tag2">Tag2</option>
+				  <option value="tag3">Tag3</option>
+				  <option value="tag4">Tag4</option>
+				</select> 				
+			</label>
+			<br/><br/>
+
+			<fieldset>
+				<legend>Escolha algumas tags:</legend>
+				<label>
+					<input type="checkbox" name="tag"> Tag1
+				</label>
+	    		<label>
+	    			<input type="checkbox" name="tag"> Tag2
+	    		</label>
+	    		<label>
+	    			<input type="checkbox" name="tag"> Tag3
+	    		</label>
+	    	</fieldset>
+    		<br/><br/>
+
+    		<input type="submit" id="enviar" value="Enviar">
+		</form>	
+	</main>
+</body>
+</html>

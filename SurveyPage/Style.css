@@ -1,0 +1,149 @@
+body {
+	background-color: #8B8989;
+}
+
+#title {
+	color: #ffffff;
+	text-align: center;
+	font-size: 300%;
+}
+
+main {
+	background-color: #ffffff;
+	margin: 0px 10rem 3rem 10rem;
+	padding: 30px 30px 30px 30px;
+	border-radius: 5px;
+}
+
+#description {
+	text-align: center;
+	color: #363636;
+	font-size: 18px;
+}
+
+#survey-form {
+	color: #363636;	
+	margin-left: 150px;
+}
+
+#name {
+	background-color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	width: 300px;
+	height: 20px;
+}
+
+#email {
+	background-color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	width: 300px;
+	height: 20px;
+}
+
+#number {
+	background-color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	width: 300px;
+	height: 20px;	
+}
+
+#textarea {
+	background-color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	width: 500px;
+	height: 100px;
+	font-size: 15px;
+}
+
+#dropdown {
+	background-color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	width: 100px;
+	height: 23px;
+}
+
+fieldset {
+	width: 500px;
+	border-radius: 5px;	
+}
+
+#enviar {	
+	background-color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 7px;
+	width: 150px;
+	height: 50px;
+	color: #363636;
+}
+
+#enviar:hover {
+		background-color: #4caf50;
+		color: white;
+	}
+
+@media(max-width: 800px){
+	#title {
+		font-size: 20vw;
+	}
+
+	#survey-form {
+		color: #363636;	
+		margin-left: 0px;
+	}
+
+	main {
+		margin: 0px 5vmin 3vmin 5vmin;
+		padding: 3vmin 3vmin 3vmin 3vmin;
+		border-radius: 5px;
+	}
+
+	#name {		
+		width: 75vmin;
+		height: 8vmin;
+	}
+
+	#email {
+		width: 75vmin;
+		height: 8vmin;
+	}
+
+	#number {
+		width: 75vmin;
+		height: 8vmin;
+	}
+
+	#textarea {
+		width: 75vmin;
+		height: 20vmin;
+		font-size: 5vmin;
+	}
+
+	#dropdown {
+		background-color: #fff;
+		border-width: 2px;
+		border-style: solid;
+		width: 50vmin;
+		height: 8vmin;
+	}
+
+	fieldset {
+		width: 70vmin;
+	}
+
+	#enviar {			
+		width: 35vmin;
+		height: 15vmin;
+		color: #363636;
+	}
+
+	#enviar:hover {
+		background-color: #4caf50;
+		color: white;
+	}
+}
